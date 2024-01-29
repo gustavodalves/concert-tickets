@@ -1,0 +1,15 @@
+{
+  "name": "manager-event",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "tsc": "^2.0.4",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
+}
