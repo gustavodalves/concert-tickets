@@ -1,6 +1,6 @@
 import { AggregateRoot } from '../domain/aggregate-root';
 
-export interface IUnitOfWork {
+export interface UnitOfWork {
   beginTransaction(): Promise<void>;
   completeTransaction(): Promise<void>;
   rollbackTransaction(): Promise<void>;

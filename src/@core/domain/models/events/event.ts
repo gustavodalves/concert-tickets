@@ -9,7 +9,6 @@ export type CreateNewEventCommand = {
     name: string,
     description: string,
     date: Date,
-    totalSpots: number
 }
 
 export class Event extends AggregateRoot {
@@ -32,7 +31,7 @@ export class Event extends AggregateRoot {
             command.name,
             command.description,
             command.date,
-            command.totalSpots,
+            0,
             []
         )
     }
